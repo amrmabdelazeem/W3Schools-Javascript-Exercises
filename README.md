@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JavaScript tutorial
 
 # JS Variables
@@ -110,3 +111,7 @@ var myArray = [1,2,3,4];
 // Declare an empty array that will contains for 4 elements
 var myArray = new Array(4);
 ```
+=======
+# W3Schools-Javascript-Exercises
+We have gathered a variety of JavaScript exercises (with answers) for each JavaScript Chapter.  Try to solve an exercise by editing some code, or show the answer to see what you've done wrong.
+>>>>>>> 6d58638b9ae43326908b9a32a9c40324a24e5b22
