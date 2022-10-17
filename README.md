@@ -341,3 +341,60 @@ Use the correct Math method to get the square root of 9.
 ```
 var x = Math.sqrt(9);
 ```
+# JS Comparison
+* ```==``` equal value
+* ```===``` equals value and equal type
+* ```!==``` not equal value or not equal type
+* ```variablename = (condition) ? value1:value2 ```
+
+Choose the correct comparison operator to alert true, when x is greater than y.
+```
+x = 10;
+y = 5;
+alert(x > y);
+```
+
+Choose the correct comparison operator to alert true, when x is equal to y.
+```
+x = 10;
+y = 10;
+alert(x == y);
+```
+
+Choose the correct comparison operator to alert true, when x is NOT equal to y.
+```
+x = 10;
+y = 5;
+alert(x != y);
+```
+
+Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
+```
+var age = n;
+var voteable = (age < 18) ? "Too young" : "Old enough";
+alert(voteable);
+```
+
+# JS Conditions
+
+Fix the if statement to alert "Hello World" if x is greater than y.
+
+```
+if (x > y)
+{
+  alert("Hello World");
+}
+```
+
+Fix the if statement to alert "Hello World" if x is greater than y, otherwise alert "Goodbye".
+
+```
+if (x > y)
+{
+  alert("Hello World");
+}
+else
+{
+  alert("Goodbye");
+}
+```
