@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # JavaScript tutorial
 
 # JS Variables
