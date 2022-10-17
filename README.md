@@ -182,3 +182,24 @@ var person = {
 };
 alert(person.name + " is " + person.age);
 ```
+# JS String
+Use the length property to alert the length of txt.
+
+```
+var txt = "Hello World!";
+var x = txt.length;
+alert(x);
+```
+Use escape characters to alert We are "Vikings".
+```
+var txt = " ";
+We are \"Vikings\"";
+alert(txt);
+```
+
+Conceteate the two string to alert "Hello World"!
+```
+var str1 = "Hello ";
+var str2 = "World";
+alert(str1 + str2);
+```
