@@ -278,3 +278,12 @@ Use the splice() method to remove "Orange" and "Apple" from fruits.
 var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
 fruits.splice(1, 2 );
 ```
+# Js array Sort
+* myVett.sort();    // Sort the elments of the array
+* myVett.reverse();  // Revers the order of the array    
+
+Use the correct Array method to sort the fruits array alphabetically.
+```
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.sort();
+```
