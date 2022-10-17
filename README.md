@@ -315,3 +315,29 @@ Use the correct Date method to set the year of a date object to 2020.
 var d = new Date();
 d.setFullYear(2020);
 ```
+# JS Math
+* ```Math.PI```          // Return 3.141592653589793
+* ```Math.round(x)```    // Round to the closest integer
+* ```Math.pow(7,2)```    // Returns 49
+* ```Math.sqrt(64)```    // Returns 8
+* ```Math.abs(-5)```     // Retusn absolute value : 5
+* ```Math.ceil(4.1)```  // Rounds up to the closes int :  5
+* ```Math.floor(4.9)``` // Rounds down to the lowest int value : 4
+* ```Math.min(4, 3,5,7,8,)``` // Return the min / return max if we use max instead min.
+
+Use the correct Math method to create a random number.
+```
+var r = Math.random();
+```
+Use the correct Math method to return the largest number of 10 and 20.
+```
+var x =  Math.max(10, 20);
+```
+Use the correct Math method to round a number to the nearest integer.
+```
+var x = Math.round(5.3);
+```
+Use the correct Math method to get the square root of 9.
+```
+var x = Math.sqrt(9);
+```
