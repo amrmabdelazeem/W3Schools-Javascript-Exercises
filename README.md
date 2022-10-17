@@ -230,3 +230,51 @@ Convert the value of txt to lower case.
 var txt = "Hello World";
 txt =  txt.toLowerCase();
 ```
+# JS array
+Get the value "Volvo" from the cars array.
+```
+var cars = ["Saab" , "Volvo" , "BMW"];
+var x = cars[1];
+```
+Change the first item of cars to "Ford".
+```
+var cars = ["Volvo", "Jeep", "Mercedes"];
+cars[0] = "Ford";
+```
+
+Alert the number of items in an array, using the correct Array method.
+```
+var cars = ["Volvo", "Jeep", "Mercedes"];
+alert(cars.length );
+```
+
+# JS Array Methods
+
+* ```myVector.toString(); ```                   // Return a single string that contains all the array elments separated by a comma.
+* ``` myVector.join("");    ```                  //  Return a string with all the element of an array separated by a specific separated passed as parameter
+* ```myVector.pop();```                         //  Removes last elment
+* ```myVector.push("weww");```                  //  Add new element to the Array
+* ```myVector.shift();```                       //  Removes first element instead of the lastName
+* ```myVector.unshift("we");```                 //  Adds a new element at the beginning
+* ```fruits[fruits.length] = "Kiwi";```         // Appends "Kiwi" to fruits
+* ```detele myVector[0];```                     // Removes first element
+* ```fruits.splice(0, 1);```                    // Removes the first element of fruits
+* ```var arr3 =  arr1.concat(arr2);```          // join two arrays
+
+
+Use the correct Array method to remove the last item of the fruits array.
+```
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+```
+Use the correct Array method to add "Kiwi" to the fruits array.
+
+```
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi");
+```
+Use the splice() method to remove "Orange" and "Apple" from fruits.
+```
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1, 2 );
+```
